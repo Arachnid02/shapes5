@@ -15,5 +15,9 @@ pentagon = Polygon(Point(875, 950), Point(950, 875), Point(925, 800), Point(825,
 pentagon.setFill(color_rgb(0, 0, 255))
 pentagon.draw(window)
 
+hexagon = Polygon(Point( 832.5, 200), Point(917.5, 200), Point(950, 125), Point(917.5, 50), Point(832.5, 50), Point(800, 125))
+hexagon.setFill(color_rgb(0, 0, 0))
+hexagon.draw(window)
+
 window.getMouse()
 window.close()
